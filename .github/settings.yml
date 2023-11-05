@@ -5,4 +5,4 @@
 repository:
   description: Packer for Linux
   homepage: https://buluma.github.io/
-  topics: development, system, image, box, packer, virtualbox, vagrant, ami, aws, droplet, packaging, build, ansible, molecule, tox, playbook, hacktoberfest
+  topics: development, system, image, box, packer, virtualbox, vagrant, ami, aws, droplet, packaging, build, ansible, molecule, tox, playbook
