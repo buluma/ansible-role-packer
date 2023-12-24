@@ -1,10 +1,10 @@
-# [Ansible role packer](#packer)
+# Ansible role [packer](https://galaxy.ansible.com/ui/standalone/roles/buluma/packer/documentation)
 
 Packer for Linux
 
-|GitHub|Version|Issues|Pull Requests|
-|------|-------|------|-------------|
-|[![github](https://github.com/buluma/ansible-role-packer/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-packer/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-packer.svg)](https://github.com/buluma/ansible-role-packer/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-packer.svg)](https://github.com/buluma/ansible-role-packer/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-packer.svg)](https://github.com/buluma/ansible-role-packer/pulls/)|
+|GitHub|Version|Issues|Pull Requests|Downloads|
+|------|-------|------|-------------|---------|
+|[![github](https://github.com/buluma/ansible-role-packer/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-packer/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-packer.svg)](https://github.com/buluma/ansible-role-packer/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-packer.svg)](https://github.com/buluma/ansible-role-packer/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-packer.svg)](https://github.com/buluma/ansible-role-packer/pulls/)|[![Ansible Role](https://img.shields.io/ansible/role/d/buluma/packer)](https://galaxy.ansible.com/ui/standalone/roles/buluma/packer/documentation)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -97,13 +97,11 @@ If you find issues, please register them in [GitHub](https://github.com/buluma/a
 
 ## [License](#license)
 
-[Apache-2.0](https://github.com/buluma/ansible-role-packer/blob/master/LICENSE).
+[Apache-2.0](https://github.com/buluma/ansible-role-packer/blob/master/LICENSE)
 
 ## [Author Information](#author-information)
 
-[Michael Buluma](https://buluma.github.io/)
+[Shadow Walker](https://buluma.github.io/)
 
-
-### [Special Thanks](#special-thanks)
 
 Template inspired by [Robert de Bock](https://github.com/robertdebock)
