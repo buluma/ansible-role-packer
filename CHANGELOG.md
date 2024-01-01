@@ -4,6 +4,10 @@
 
 [Full Changelog](https://github.com/buluma/ansible-role-packer/compare/v0.1.1...HEAD)
 
+**Closed issues:**
+
+- Update buluma/todo-to-issue-action@v1.0.1 @buluma [\#20](https://github.com/buluma/ansible-role-packer/issues/20)
+
 **Merged pull requests:**
 
 - Bump actions/setup-python from 3.1.2 to 4.4.0 [\#14](https://github.com/buluma/ansible-role-packer/pull/14) ([dependabot[bot]](https://github.com/apps/dependabot))
