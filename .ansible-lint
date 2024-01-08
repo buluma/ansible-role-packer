@@ -4,7 +4,7 @@
 #
 exclude_paths:
   - molecule/default/collections.yml
-- molecule/default/converge.yml
+  - molecule/default/converge.yml
   - .tox
   - .cache
   - .github
