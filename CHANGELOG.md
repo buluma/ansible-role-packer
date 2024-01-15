@@ -4,6 +4,11 @@
 
 [Full Changelog](https://github.com/buluma/ansible-role-packer/compare/v0.2.0...HEAD)
 
+**Closed issues:**
+
+- Update action [\#19](https://github.com/buluma/ansible-role-packer/issues/19)
+- rebuild action [\#18](https://github.com/buluma/ansible-role-packer/issues/18)
+
 **Merged pull requests:**
 
 - Bump actions/setup-python from 4.4.0 to 5.0.0 [\#24](https://github.com/buluma/ansible-role-packer/pull/24) ([dependabot[bot]](https://github.com/apps/dependabot))
