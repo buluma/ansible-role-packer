@@ -4,8 +4,14 @@
 
 [Full Changelog](https://github.com/buluma/ansible-role-packer/compare/v0.2.0...HEAD)
 
+**Closed issues:**
+
+- Update action [\#19](https://github.com/buluma/ansible-role-packer/issues/19)
+- rebuild action [\#18](https://github.com/buluma/ansible-role-packer/issues/18)
+
 **Merged pull requests:**
 
+- Bump buluma/molecule-action from 6.0.0 to 6.0.1 [\#25](https://github.com/buluma/ansible-role-packer/pull/25) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump actions/setup-python from 4.4.0 to 5.0.0 [\#24](https://github.com/buluma/ansible-role-packer/pull/24) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump buluma/gh-action-auto-merge-dependabot-updates from 1.0.5 to 1.0.8 [\#23](https://github.com/buluma/ansible-role-packer/pull/23) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump actions/checkout from 3 to 4 [\#22](https://github.com/buluma/ansible-role-packer/pull/22) ([dependabot[bot]](https://github.com/apps/dependabot))
