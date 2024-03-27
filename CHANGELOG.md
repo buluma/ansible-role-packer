@@ -26,7 +26,6 @@
 - Bump buluma/molecule-action from 6.0.0 to 6.0.1 [\#25](https://github.com/buluma/ansible-role-packer/pull/25) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump actions/setup-python from 4.4.0 to 5.0.0 [\#24](https://github.com/buluma/ansible-role-packer/pull/24) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump buluma/gh-action-auto-merge-dependabot-updates from 1.0.5 to 1.0.8 [\#23](https://github.com/buluma/ansible-role-packer/pull/23) ([dependabot[bot]](https://github.com/apps/dependabot))
-- Bump actions/checkout from 3 to 4 [\#22](https://github.com/buluma/ansible-role-packer/pull/22) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [v0.2.0](https://github.com/buluma/ansible-role-packer/tree/v0.2.0) (2024-01-08)
 
@@ -48,6 +47,7 @@
 
 **Merged pull requests:**
 
+- Bump actions/checkout from 3 to 4 [\#22](https://github.com/buluma/ansible-role-packer/pull/22) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump actions/checkout from 2 to 3 [\#2](https://github.com/buluma/ansible-role-packer/pull/2) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump actions/setup-python from 2 to 3.1.0 [\#1](https://github.com/buluma/ansible-role-packer/pull/1) ([dependabot[bot]](https://github.com/apps/dependabot))
 
