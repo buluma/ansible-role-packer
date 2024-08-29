@@ -1,5 +1,13 @@
 # Changelog
 
+## [Unreleased](https://github.com/buluma/ansible-role-packer/tree/HEAD)
+
+[Full Changelog](https://github.com/buluma/ansible-role-packer/compare/v24.3.31...HEAD)
+
+**Merged pull requests:**
+
+- Bump actions/setup-python from 5.1.0 to 5.1.1 [\#34](https://github.com/buluma/ansible-role-packer/pull/34) ([dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [v24.3.31](https://github.com/buluma/ansible-role-packer/tree/v24.3.31) (2024-03-29)
 
 [Full Changelog](https://github.com/buluma/ansible-role-packer/compare/v0.3.0...v24.3.31)
