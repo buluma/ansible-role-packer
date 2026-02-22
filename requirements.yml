@@ -1,5 +1,4 @@
----
+collections: null
 roles:
-  - name: buluma.bootstrap
-  - name: buluma.ca_certificates
-collections:
+- name: buluma.bootstrap
+- name: buluma.ca_certificates
