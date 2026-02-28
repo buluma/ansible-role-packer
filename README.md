@@ -11,27 +11,29 @@ Packer for Linux
 This example is taken from [`molecule/default/converge.yml`](https://github.com/buluma/ansible-role-packer/blob/master/molecule/default/converge.yml) and is tested on each push, pull request and release.
 
 ```yaml
-- become: true
-  hosts: all
-  name: Converge
-  pre_tasks:
-  - apt: update_cache=true cache_valid_time=600
-    name: Update apt cache.
-    when: ansible_os_family == 'Debian'
-  roles:
-  - role: buluma.packer
+---
+  - become: true
+    hosts: all
+    name: Converge
+    pre_tasks:
+      - apt: update_cache=true cache_valid_time=600
+        name: Update apt cache.
+        when: ansible_os_family == 'Debian'
+    roles:
+      - role: buluma.packer
 ```
 
 The machine needs to be prepared. In CI this is done using [`molecule/default/prepare.yml`](https://github.com/buluma/ansible-role-packer/blob/master/molecule/default/prepare.yml):
 
 ```yaml
-- become: true
-  gather_facts: false
-  hosts: all
-  name: Prepare
-  roles:
-  - role: buluma.bootstrap
-  - role: buluma.ca_certificates
+---
+  - become: true
+    gather_facts: false
+    hosts: all
+    name: Prepare
+    roles:
+      - role: buluma.bootstrap
+      - role: buluma.ca_certificates
 ```
 
 Also see a [full explanation and example](https://buluma.github.io/how-to-use-these-roles.html) on how to use these roles.
@@ -41,6 +43,7 @@ Also see a [full explanation and example](https://buluma.github.io/how-to-use-th
 The default values for the variables are set in [`defaults/main.yml`](https://github.com/buluma/ansible-role-packer/blob/master/defaults/main.yml):
 
 ```yaml
+---
 packer_arch: amd64
 packer_bin_path: /usr/local/bin
 packer_version: 1.0.0

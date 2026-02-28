@@ -1,3 +1,4 @@
+---
 defaults:
   run:
     working-directory: geerlingguy.packer
@@ -6,6 +7,7 @@ jobs:
     name: Lint
     runs-on: ubuntu-latest
     steps:
+<<<<<<< HEAD
     - name: Check out the codebase.
       uses: actions/checkout@v6
       with:
@@ -18,12 +20,27 @@ jobs:
       run: pip3 install yamllint
     - name: Lint code.
       run: 'yamllint .
+=======
+      - name: Check out the codebase.
+        uses: actions/checkout@v6
+        with:
+          path: geerlingguy.packer
+      - name: Set up Python 3.
+        uses: actions/setup-python@v6.1.1
+        with:
+          python-version: 3.x
+      - name: Install test dependencies.
+        run: pip3 install yamllint
+      - name: Lint code.
+        run: 'yamllint .
+>>>>>>> 4280189 (Update files using ansible-generator)
 
-        '
+          '
   molecule:
     name: Molecule
     runs-on: ubuntu-latest
     steps:
+<<<<<<< HEAD
     - name: Check out the codebase.
       uses: actions/checkout@v6
       with:
@@ -40,18 +57,36 @@ jobs:
         PY_COLORS: '1'
       name: Run Molecule tests.
       run: molecule test
+=======
+      - name: Check out the codebase.
+        uses: actions/checkout@v6
+        with:
+          path: geerlingguy.packer
+      - name: Set up Python 3.
+        uses: actions/setup-python@v6.1.1
+        with:
+          python-version: 3.x
+      - name: Install test dependencies.
+        run: pip3 install ansible molecule[docker] docker
+      - env:
+          ANSIBLE_FORCE_COLOR: '1'
+          MOLECULE_DISTRO: ${{ matrix.distro }}
+          PY_COLORS: '1'
+        name: Run Molecule tests.
+        run: molecule test
+>>>>>>> 4280189 (Update files using ansible-generator)
     strategy:
       matrix:
         distro:
-        - rockylinux8
-        - centos7
-        - ubuntu2004
-        - debian11
+          - rockylinux8
+          - centos7
+          - ubuntu2004
+          - debian11
 name: CI
 'on':
-  pull_request: null
+  pull_request:
   push:
     branches:
-    - master
+      - master
   schedule:
-  - cron: 0 5 * * 4
+    - cron: 0 5 * * 4

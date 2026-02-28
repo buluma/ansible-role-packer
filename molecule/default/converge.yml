@@ -1,9 +1,10 @@
-- become: true
-  hosts: all
-  name: Converge
-  pre_tasks:
-  - apt: update_cache=true cache_valid_time=600
-    name: Update apt cache.
-    when: ansible_os_family == 'Debian'
-  roles:
-  - role: buluma.packer
+---
+  - become: true
+    hosts: all
+    name: Converge
+    pre_tasks:
+      - apt: update_cache=true cache_valid_time=600
+        name: Update apt cache.
+        when: ansible_os_family == 'Debian'
+    roles:
+      - role: buluma.packer
