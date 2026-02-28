@@ -1,33 +1,32 @@
 ---
 dependencies: []
-
 galaxy_info:
   author: buluma
-  role_name: packer
-  description: "Packer for Linux"
-  company: "ShadowNet"
-  license: Apache-2.0
-  min_ansible_version: "2.12"
-  platforms:
-    - name: EL
-      versions:
-        - all
-    - name: Ubuntu
-      versions:
-        - all
-    - name: Debian
-      versions:
-        - all
+  company: ShadowNet
+  description: Packer for Linux
   galaxy_tags:
-    - development
-    - system
-    - image
-    - box
-    - packer
-    - virtualbox
-    - vagrant
-    - ami
-    - aws
-    - droplet
-    - packaging
-    - build
+  - development
+  - system
+  - image
+  - box
+  - packer
+  - virtualbox
+  - vagrant
+  - ami
+  - aws
+  - droplet
+  - packaging
+  - build
+  license: Apache-2.0
+  min_ansible_version: '2.12'
+  platforms:
+  - name: EL
+    versions:
+    - all
+  - name: Ubuntu
+    versions:
+    - all
+  - name: Debian
+    versions:
+    - all
+  role_name: packer
