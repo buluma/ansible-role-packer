@@ -48,7 +48,7 @@ The default values for the variables are set in [`defaults/main.yml`](https://gi
 ---
 packer_arch: amd64
 packer_bin_path: /usr/local/bin
-packer_version: 1.0.0
+packer_version: "1.0.0"
 ```
 
 ## [Requirements](#requirements)
@@ -97,3 +97,4 @@ If you find issues, please register them on [GitHub](https://github.com/buluma/a
 ## [Author Information](#author-information)
 
 [buluma](https://buluma.github.io/)
+
