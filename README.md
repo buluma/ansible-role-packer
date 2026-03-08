@@ -2,9 +2,9 @@
 
 Packer for Linux
 
-|GitHub|GitLab|Downloads|Version|
-|------|------|---------|-------|
-|[![github](https://github.com/buluma/ansible-role-packer/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-packer/actions)|[![gitlab](https://gitlab.com/shadowwalker/ansible-role-packer/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-packer)|[![downloads](https://img.shields.io/ansible/role/d/buluma/packer)](https://galaxy.ansible.com/buluma/packer)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-packer.svg)](https://github.com/buluma/ansible-role-packer/releases/)|
+|GitHub|Issues|Pull Requests|Version|Downloads|
+|------|------|-------------|-------|---------|
+|[![github](https://github.com/buluma/ansible-role-packer/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-packer/actions/workflows/molecule.yml)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-packer.svg)](https://github.com/buluma/ansible-role-packer/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-packer.svg)](https://github.com/buluma/ansible-role-packer/pulls/)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-packer.svg)](https://github.com/buluma/ansible-role-packer/releases/)|[![Ansible Role](https://img.shields.io/ansible/role/d/buluma/packer)](https://galaxy.ansible.com/ui/standalone/roles/buluma/packer/documentation)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -16,8 +16,10 @@ This example is taken from [`molecule/default/converge.yml`](https://github.com/
   become: true
   hosts: all
   pre_tasks:
-    - ansible.builtin.apt: update_cache=true cache_valid_time=600
-      name: Update apt cache.
+    - name: Update apt cache.
+      ansible.builtin.apt:
+        update_cache: "true"
+        cache_valid_time: "600"
       when: ansible_os_family == 'Debian'
   roles:
     - role: buluma.packer
@@ -57,27 +59,28 @@ packer_version: 1.0.0
 
 The following roles are used to prepare a system. You can prepare your system in another way.
 
-| Requirement | GitHub | GitLab |
-|-------------|--------|--------|
-|[buluma.bootstrap](https://galaxy.ansible.com/buluma/bootstrap)|[![Build Status GitHub](https://github.com/buluma/ansible-role-bootstrap/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-bootstrap/actions)|[![Build Status GitLab](https://gitlab.com/shadowwalker/ansible-role-bootstrap/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-bootstrap)|
-|[buluma.ca_certificates](https://galaxy.ansible.com/buluma/ca_certificates)|[![Build Status GitHub](https://github.com/buluma/ansible-role-ca_certificates/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-ca_certificates/actions)|[![Build Status GitLab](https://gitlab.com/shadowwalker/ansible-role-ca_certificates/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-ca_certificates)|
+| Requirement | GitHub |
+|-------------|--------|
+|[buluma.bootstrap](https://galaxy.ansible.com/buluma/bootstrap)|[![Build Status GitHub](https://github.com/buluma/ansible-role-bootstrap/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-bootstrap/actions)|
+|[buluma.ca_certificates](https://galaxy.ansible.com/buluma/ca_certificates)|[![Build Status GitHub](https://github.com/buluma/ansible-role-ca_certificates/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-ca_certificates/actions)|
 
 ## [Context](#context)
 
 This role is part of many compatible roles. Have a look at [the documentation of these roles](https://buluma.github.io/) for further information.
 
 Here is an overview of related roles:
+
 ![dependencies](https://raw.githubusercontent.com/buluma/ansible-role-packer/png/requirements.png "Dependencies")
 
 ## [Compatibility](#compatibility)
 
-This role has been tested on these [container images](https://hub.docker.com/u/buluma):
+This role has been tested on these [container images](https://hub.docker.com/u/robertdebock):
 
 |container|tags|
 |---------|----|
-|[EL](https://hub.docker.com/r/buluma/enterpriselinux)|all|
-|[Ubuntu](https://hub.docker.com/r/buluma/ubuntu)|all|
-|[Debian](https://hub.docker.com/r/buluma/debian)|all|
+|[EL](https://hub.docker.com/r/robertdebock/enterpriselinux)|all|
+|[Ubuntu](https://hub.docker.com/r/robertdebock/ubuntu)|all|
+|[Debian](https://hub.docker.com/r/robertdebock/debian)|all|
 
 The minimum version of Ansible required is 2.12, tests have been done on:
 
@@ -94,3 +97,4 @@ If you find issues, please register them on [GitHub](https://github.com/buluma/a
 ## [Author Information](#author-information)
 
 [buluma](https://buluma.github.io/)
+
