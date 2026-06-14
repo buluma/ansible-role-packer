@@ -1,11 +1,13 @@
 # Changelog
 
-## [Unreleased](https://github.com/buluma/ansible-role-packer/tree/HEAD)
+## [v26.6.0](https://github.com/buluma/ansible-role-packer/tree/v26.6.0) (2026-06-14)
 
-[Full Changelog](https://github.com/buluma/ansible-role-packer/compare/v24.3.31...HEAD)
+[Full Changelog](https://github.com/buluma/ansible-role-packer/compare/v24.3.31...v26.6.0)
 
 **Merged pull requests:**
 
+- Bump ansible/ansible-lint from 26.1.1 to 26.2.0 [\#37](https://github.com/buluma/ansible-role-packer/pull/37) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump actions/checkout from 4 to 6 [\#36](https://github.com/buluma/ansible-role-packer/pull/36) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump actions/setup-python from 5.1.0 to 5.1.1 [\#34](https://github.com/buluma/ansible-role-packer/pull/34) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [v24.3.31](https://github.com/buluma/ansible-role-packer/tree/v24.3.31) (2024-03-29)
