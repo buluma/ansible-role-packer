@@ -49,6 +49,7 @@
 
 **Merged pull requests:**
 
+- Bump actions/setup-python from 3.1.2 to 4.4.0 [\#14](https://github.com/buluma/ansible-role-packer/pull/14) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump actions/setup-python from 3.1.1 to 3.1.2 [\#4](https://github.com/buluma/ansible-role-packer/pull/4) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump actions/setup-python from 3.1.0 to 3.1.1 [\#3](https://github.com/buluma/ansible-role-packer/pull/3) ([dependabot[bot]](https://github.com/apps/dependabot))
 
@@ -58,7 +59,6 @@
 
 **Merged pull requests:**
 
-- Bump actions/setup-python from 3.1.2 to 4.4.0 [\#14](https://github.com/buluma/ansible-role-packer/pull/14) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump actions/checkout from 2 to 3 [\#2](https://github.com/buluma/ansible-role-packer/pull/2) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump actions/setup-python from 2 to 3.1.0 [\#1](https://github.com/buluma/ansible-role-packer/pull/1) ([dependabot[bot]](https://github.com/apps/dependabot))
 
