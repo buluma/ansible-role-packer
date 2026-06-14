@@ -1,7 +1,5 @@
 ---
 - name: Converge
-  become: true
-- name: Converge
   hosts: all
   pre_tasks:
     - name: Update apt cache.
