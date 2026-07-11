@@ -24,6 +24,7 @@
 - Bump dependabot/fetch-metadata from 1 to 2 [\#32](https://github.com/buluma/ansible-role-packer/pull/32) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump buluma/dependabot-auto-merge-action from 2.1.1 to 2.1.2 [\#29](https://github.com/buluma/ansible-role-packer/pull/29) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump release-drafter/release-drafter from 5 to 6 [\#28](https://github.com/buluma/ansible-role-packer/pull/28) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump release-drafter/release-drafter from 5 to 6 [\#27](https://github.com/buluma/ansible-role-packer/pull/27) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [v0.3.0](https://github.com/buluma/ansible-role-packer/tree/v0.3.0) (2024-01-20)
 
@@ -52,7 +53,6 @@
 
 **Merged pull requests:**
 
-- Bump release-drafter/release-drafter from 5 to 6 [\#27](https://github.com/buluma/ansible-role-packer/pull/27) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump actions/setup-python from 3.1.2 to 4.4.0 [\#14](https://github.com/buluma/ansible-role-packer/pull/14) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump actions/setup-python from 3.1.1 to 3.1.2 [\#4](https://github.com/buluma/ansible-role-packer/pull/4) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump actions/setup-python from 3.1.0 to 3.1.1 [\#3](https://github.com/buluma/ansible-role-packer/pull/3) ([dependabot[bot]](https://github.com/apps/dependabot))
