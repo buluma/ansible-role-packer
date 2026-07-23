@@ -4,8 +4,11 @@
   become: true
   gather_facts: false
 
+  vars_files:
+    - ../../defaults/main.yml
+
   tasks:
     - name: Check packer version
       ansible.builtin.command:
-        cmd: packer --version
+        cmd: "{{ packer_bin_path }}/packer --version"
       changed_when: false
