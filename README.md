@@ -77,7 +77,7 @@ The default values for the variables are set in [`defaults/main.yml`](https://gi
 ---
 packer_arch: amd64
 packer_bin_path: /usr/local/bin
-packer_version: "1.0.0"
+packer_version: "1.16.2"
 ```
 
 ## [Requirements](#requirements)
